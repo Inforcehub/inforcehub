@@ -14,5 +14,5 @@ Utilities for data science and customer management
 Features
 --------
 
-* TODO
+* helloworld function to test installation ``inforcehub.helloworld()``
 
