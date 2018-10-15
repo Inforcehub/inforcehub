@@ -25,7 +25,7 @@ Feedback
 ========
 
 If you have any suggestions or questions about **inforcehub** feel free to email me
-at mdgosden@gmail.com.
+at matt.gosden@inforcehub.com.
 
 If you encounter any errors or problems with **inforcehub**, please let me know!
-Open an Issue at the GitHub http://github.com/ttamg/inforcehub main repository.
+Open an Issue at the GitHub http://github.com/inforcehub/inforcehub main repository.

@@ -14,12 +14,20 @@ Utilities for data science and customer management
 Features
 --------
 
-* helloworld function to test installation
+* **colors** module - to enable quick use of inforcehub branded colors
 
 
 Installation
 ------------
 
-Use ``pip install inforcehub`` to install the module in your virtual environment.
+To install the module in your virtual environment::
 
+    pip install inforcehub
+
+
+Documentation
+-----------
+
+Full documentation on the utilities in this package can be found 
+at http://inforcehub.rtfd.org
 
