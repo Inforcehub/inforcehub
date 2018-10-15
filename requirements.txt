@@ -1,8 +1,0 @@
-wheel>=0.22
-black==18.9b0
-flake8==3.5.0
-pytest==3.8.2
-tox==2.9.1
-pytest-cookies==0.3.0
-watchdog==0.8.3
-alabaster==0.7.10
