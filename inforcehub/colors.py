@@ -45,10 +45,7 @@ def ifh(color_name=None):
     :rtype: str
     """
     if color_name is None:
-        message = (
-            f"Usage example: colors.ifh('pink') ... "
-            + f'Available colours: {", ".join(ALL_COLORS.keys())}'
-        )
+        message = f'Available colours: {", ".join(ALL_COLORS.keys())}'
         return message
 
     result = ALL_COLORS.get(color_name)

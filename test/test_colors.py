@@ -48,7 +48,7 @@ class TestInforcehub(object):
     def test_ifh_color_help(self):
         """ Tests the help text """
         assert isinstance(colors.ifh(), str)
-        assert "Usage" in colors.ifh()
+        assert "Available" in colors.ifh()
 
     def test_ifh_color_exception(self):
         """ Tests the exceptions are raised for invalid colours """

@@ -25,8 +25,14 @@ To install the module in your virtual environment::
     pip install inforcehub
 
 
+Requirements
+------------
+
+Python 3.6 or later 
+
+
 Documentation
------------
+-------------
 
 Full documentation on the utilities in this package can be found 
 at http://inforcehub.rtfd.org
