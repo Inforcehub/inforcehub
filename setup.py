@@ -43,6 +43,7 @@ setup(
         "Natural Language :: English",
         "Programming Language :: Python :: 3 :: Only",
         "Programming Language :: Python :: 3.4",
+        "Programming Language :: Python :: 3.5",
         "Programming Language :: Python :: 3.6",
         "Operating System :: OS Independent",
         "Topic :: Office/Business :: Financial",

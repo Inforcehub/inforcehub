@@ -14,5 +14,12 @@ Utilities for data science and customer management
 Features
 --------
 
-* helloworld function to test installation ``inforcehub.helloworld()``
+* helloworld function to test installation
+
+
+Installation
+------------
+
+Use ``pip install inforcehub`` to install the module in your virtual environment.
+
 
