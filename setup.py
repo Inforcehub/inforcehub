@@ -23,7 +23,7 @@ history = open("HISTORY.rst").read().replace(".. :changelog:", "")
 
 setup(
     name="inforcehub",
-    version="0.1.0",
+    version="0.1.1",
     description="Utilities for data science and customer management",
     long_description=readme + "\n\n" + doclink + "\n\n" + history,
     author="inforcehub",
