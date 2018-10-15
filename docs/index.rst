@@ -13,9 +13,11 @@ Contents:
 
    installation
    usage
+   modules/colors
    contributing
    authors
    history
+   
 
 Feedback
 ========
