@@ -11,3 +11,9 @@ Or, if you have virtualenvwrapper installed::
 
     $ mkvirtualenv inforcehub
     $ pip install inforcehub
+
+
+Requirements
+============
+
+Package requires **Python 3.6 or later**
