@@ -121,3 +121,6 @@ dmypy.json
 # Complexity
 output/*.html
 output/*/index.html
+
+# VScode
+.vscode*
