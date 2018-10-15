@@ -7,3 +7,4 @@ History
 ++++++++++++++++++
 
 * First release on PyPI.
+* Colors module providing inforcehub brand colors

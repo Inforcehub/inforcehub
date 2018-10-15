@@ -1,3 +1,5 @@
+.. _colors_module:
+
 =============
 Colors module
 =============

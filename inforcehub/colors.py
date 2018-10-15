@@ -38,7 +38,7 @@ def ifh(color_name=None):
     Function to return the hex color code of a specific IFH branded color.
 
     :param: str color_name: the name of the color to be returned
-    
+
     If left blank the function will return a list of all available colors
 
     :returns: a color hex code, or a list of colors

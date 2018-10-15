@@ -6,8 +6,10 @@ Development Lead
 ----------------
 
 * Matt Gosden <matt.gosden@inforcehub.com>
+* Gareth Emery <gareth.emery@inforcehub.com>
 
 Contributors
 ------------
 
-None yet. Why not be the first?
+* Adrian Horobet <adrian.horobet@inforcehub.com>
+* Michel Abbink <michel.abbink@inforcehub.com>

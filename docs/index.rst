@@ -11,11 +11,13 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
+   modules/overview
    installation
    usage
    modules/colors
    contributing
    authors
+   license
    history
    
 
