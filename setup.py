@@ -19,13 +19,18 @@ readme = open("README.rst").read()
 # -------------
 
 # The full documentation is at http://inforcehub.rtfd.org."""
+githublink = """
+Github repository
+-----------------
+
+The code can be found on GitHub at https://github.com/Inforcehub/inforcehub."""
 history = open("HISTORY.rst").read().replace(".. :changelog:", "")
 
 setup(
     name="inforcehub",
     version="0.1.2",
     description="Utilities for data science and customer management",
-    long_description=readme + "\n\n" + history,
+    long_description=readme + "\n\n" + githublink + "\n\n" + history,
     author="inforcehub",
     author_email="matt.gosden@inforcehub.com",
     url="https://github.com/inforcehub/inforcehub",
