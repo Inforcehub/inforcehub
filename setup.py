@@ -14,18 +14,18 @@ if sys.argv[-1] == "publish":
     sys.exit()
 
 readme = open("README.rst").read()
-doclink = """
-Documentation
--------------
+# doclink = """
+# Documentation
+# -------------
 
-The full documentation is at http://inforcehub.rtfd.org."""
+# The full documentation is at http://inforcehub.rtfd.org."""
 history = open("HISTORY.rst").read().replace(".. :changelog:", "")
 
 setup(
     name="inforcehub",
     version="0.1.1",
     description="Utilities for data science and customer management",
-    long_description=readme + "\n\n" + doclink + "\n\n" + history,
+    long_description=readme + "\n\n" + history,
     author="inforcehub",
     author_email="matt.gosden@inforcehub.com",
     url="https://github.com/inforcehub/inforcehub",
@@ -41,8 +41,13 @@ setup(
         "Intended Audience :: Financial and Insurance Industry",
         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
         "Natural Language :: English",
+        "Programming Language :: Python :: pypy",
         "Programming Language :: Python :: 3 :: Only",
+        "Programming Language :: Python :: 3.3",
+        "Programming Language :: Python :: 3.4",
+        "Programming Language :: Python :: 3.5",
         "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.7",
         "Operating System :: OS Independent",
         "Topic :: Office/Business :: Financial",
         "Topic :: Software Development :: Libraries :: Python Modules",

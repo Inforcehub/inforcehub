@@ -16,4 +16,4 @@ Or, if you have virtualenvwrapper installed::
 Requirements
 ============
 
-Package requires **Python 3.6 or later**
+Package requires **Python 3.3 or later**
