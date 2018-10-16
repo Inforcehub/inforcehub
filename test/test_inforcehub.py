@@ -14,10 +14,6 @@ class TestInforcehub(object):
     def teardown_class(cls):
         pass
 
-    def test_helloworld(self):
-        """ Tests the helloworld method """
-        assert "installed" in inforcehub.helloworld()
-
     def test_color_imports(self):
         """ Confirm imports are available for color modules """
         from inforcehub.colors import InforcehubColors
