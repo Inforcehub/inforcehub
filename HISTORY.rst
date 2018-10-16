@@ -8,6 +8,7 @@ History
 ++++++++++++++++++
 
 * Colors module refactored and additional tests written
+* Added support for Python 3.4+
 
 
 0.1.1 (2018-10-15)
