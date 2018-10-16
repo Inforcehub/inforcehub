@@ -29,7 +29,7 @@ class TestInforcehub(object):
 
         cls.extra_colors = [
             ("purple", "#5E2099"),
-            ("forrest", "#137748"),
+            ("forest", "#137748"),
             ("teal", "#117789"),
             ("violet", "#5446A0"),
             ("orange", "#FC5507"),

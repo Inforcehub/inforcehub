@@ -24,13 +24,13 @@ class InforcehubColors:
     neutral = ["mid", "dark", "light", "black", "white"]
 
     # Extra colors (not core but useful when we need more colors)
-    forrest = "#137748"
+    forest = "#137748"
     purple = "#5E2099"
     teal = "#117789"
     violet = "#5446A0"
     orange = "#FC5507"
     red = "#E52019"
-    extra = ["forrest", "purple", "teal", "violet", "orange", "red"]
+    extra = ["forest", "purple", "teal", "violet", "orange", "red"]
 
     colors = core + extra
     all = core + extra + neutral
