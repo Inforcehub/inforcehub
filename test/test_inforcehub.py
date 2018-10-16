@@ -20,7 +20,8 @@ class TestInforcehub(object):
 
     def test_color_imports(self):
         """ Confirm imports are available for color modules """
-        from inforcehub import colors
+        from inforcehub.colors import InforcehubColors
 
-        assert isinstance(colors.ifh(), str)
-        assert isinstance(colors.ifhlist(), list)
+        c = InforcehubColors()
+        c.list()
+

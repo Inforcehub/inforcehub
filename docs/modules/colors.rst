@@ -7,43 +7,40 @@ Colors module
 This provides simple utilities to return **inforcehub branded colors** for
 use across applications such as matplotlib.
 
-Sub-modules
-===========
+Usage
+=====
 
-colors.ifh()
-------------
+Import the color class and create an instance::
 
-**Returns a single color hex code** for an inforcehub branded color
-with name *color_name*::
+    from inforcehub.colors import InforcehubColors
+    
+    ifh = InforcehubColors()
 
-    colors.ifh(color_name)
+On this you can then get the specific colors by name::
 
-To see a list of available colors, call the function without any *color_name*::
+    ifh.pink                # Hex code for our pink
+    ifh.blue                # Hex code for our blue
 
-    colors.ifh()
+Or you can see the list of colors available::
 
+    ifh.show()              # Names of all colors and neutrals 
+    ifh.show('core')        # Names of core colors only
+    ifh.show('neutral')     # Names of neutral colors only
 
-colors.ifhlist()
-----------------
+Or you can get multiple color hexcodes in a list::
 
-**Returns a list of hex color codes** using inforcehub branded colors.
-This can be passed to matplotlib charts with multiple series to automatically
-color series in the branded colors::
+    ifh.list()              # Hex codes for everything
+    ifh.list('core')        # Hex codes for core colors
+    ifh.list('colors')      # Hex codes for all colors
+    ifh.list('neutral')     # Hex codes for neutral colors
 
-    colors.ifhlist()
-
-
-Importing
-=========
-
-To use the color utilities import the functions you need::
-
-    from inforcehub import colors
+Note that these methods are class methods on the **InforcehubColors** object.
+So you do not have to create an instance first. But we suggest doing it using an 
+instance as above as it will keep your code neater.
 
 
-
-Details
-=======
+Module details
+==============
 
 .. automodule:: inforcehub.colors
    	:members:

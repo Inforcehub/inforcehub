@@ -20,7 +20,7 @@ Features
 Installation
 ------------
 
-To install the module in your virtual environment::
+To install the module in your virtual environment using pip::
 
     pip install inforcehub
 

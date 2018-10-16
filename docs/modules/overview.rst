@@ -20,7 +20,7 @@ Sub-modules
 Colors
 ------
 
-This is a module of shortcuts to easily import inforcehub branded color.
+This is a module of shortcuts to easily import inforcehub branded colors.
 This makes consistent coloring easier in matplotlib and jupyter notebooks.
 
 :ref:`Find out more. <colors_module>`

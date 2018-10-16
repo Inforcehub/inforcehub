@@ -3,6 +3,19 @@
 History
 -------
 
+
+0.1.2 (2018-10-16)
+++++++++++++++++++
+
+* Colors module refactored and additional tests written
+
+
+0.1.1 (2018-10-15)
+++++++++++++++++++
+
+* Documentation added
+
+
 0.1.0 (2018-10-15)
 ++++++++++++++++++
 

@@ -1,67 +1,81 @@
-# A dictionary of colors with the name and hexcode
-
-# CORE_COLORS - for the core brand colors
-CORE_COLORS = {
-    "pink": "#cb1b64",
-    "blue": "#0593cf",
-    "green": "#079921",
-    "yellow": "#f3b80c",
-    "cyan": "#0bd0b1",
-}
-
-# NEUTRAL_COLORS - neutrals for the core brand
-NEUTRAL_COLORS = {
-    "mid": "#8c8c8c",
-    "dark": "#4d4d4d",
-    "light": "#cccccc",
-    "black": "#011329",
-    "white": "#fcfcfc",
-}
-
-# EXTRA_COLORS - for additional colors when a list is required
-EXTRA_COLORS = {
-    "purple": "#5e2099",
-    "forrest": "#137748",
-    "teal": "#117789",
-    "violet": "#5446a0",
-    "orange": "#FC5507",
-    "red": "#e52019",
-}
-
-ALL_COLORS = CORE_COLORS.copy()
-ALL_COLORS.update(EXTRA_COLORS)
-ALL_COLORS.update(NEUTRAL_COLORS)
-
-
-def ifh(color_name=None):
+class InforcehubColors:
     """
-    Function to return the hex color code of a specific IFH branded color.
+    A class that will return the inforcehub brand colors as single hex codes
+    or lists for use in various packages such as matplotlib.
 
-    :param: str color_name: the name of the color to be returned
-
-    If left blank the function will return a list of all available colors
-
-    :returns: a color hex code, or a list of colors
-    :rtype: str
+    The objective of this package is to make it easier and quicker to create
+    consistent-looking charts using branded colors
     """
-    if color_name is None:
-        return "Available colours: %s" % ", ".join(ALL_COLORS.keys())
 
-    result = ALL_COLORS.get(color_name)
-    if result is not None:
-        return result
-    else:
-        raise Exception("Invalid color - try ifh_color() for help")
+    # Core colors
+    pink = "#CB1B64"
+    blue = "#0593CF"
+    green = "#079921"
+    yellow = "#F3B80C"
+    cyan = "#0BD0B1"
+    core = ["pink", "blue", "green", "yellow", "cyan"]
 
+    # Neutral colors
+    mid = "#8C8C8C"
+    dark = "#4D4D4D"
+    light = "#CCCCCC"
+    black = "#011329"
+    white = "#FCFCFC"
+    neutral = ["mid", "dark", "light", "black", "white"]
 
-def ifhlist():
-    """
-    Returns a list of hex color codes for use in charts such as matplotlib.
+    # Extra colors (not core but useful when we need more colors)
+    forrest = "#137748"
+    purple = "#5E2099"
+    teal = "#117789"
+    violet = "#5446A0"
+    orange = "#FC5507"
+    red = "#E52019"
+    extra = ["forrest", "purple", "teal", "violet", "orange", "red"]
 
-    :returns: a list of color hex codes
-    :rtype: list
-    """
-    colors = []
-    colors.extend(CORE_COLORS.values())
-    colors.extend(EXTRA_COLORS.values())
-    return colors
+    colors = core + extra
+    all = core + extra + neutral
+
+    @classmethod
+    def show(cls, sublist="all"):
+        """
+        Returns a list of the color names
+
+        :param: str sublist: (default='all') to return 'colors', 'core', 'neutral', or 'all'
+
+        :returns: a list of color names
+        :rtype: list
+
+        """
+        if sublist is not None:
+            if sublist not in ["core", "neutral", "colors", "all"]:
+                raise Exception(
+                    'List type can only be "core", "neutral", "colors", or "all"'
+                )
+
+        list_ = []
+        for color in getattr(cls, sublist):
+            list_.append(color)
+        return list_
+
+    @classmethod
+    def list(cls, sublist="all"):
+        """
+        Returns a list of the color hex codes for use in Matplotlib
+        or other tools which want a set of colors to choose from
+
+        :param: str sublist: (default='all') to return 'colors', 'core', 'neutral', or 'all'
+
+        :returns: a list of color hex codes
+        :rtype: list
+
+        """
+        if sublist is not None:
+            if sublist not in ["core", "neutral", "colors", "all"]:
+                raise Exception(
+                    'List type can only be "core", "neutral", "colors", or "all"'
+                )
+
+        list_ = []
+        for color in getattr(cls, sublist):
+            list_.append(getattr(cls, color))
+        return list_
