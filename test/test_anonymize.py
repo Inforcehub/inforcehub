@@ -39,14 +39,14 @@ class TestInforcehubAnon(object):
         """ Tests that columns that don't exist raises an exception """
         df = test_df.copy()
         with pytest.raises(Exception):
-            dummy = self.anon.transform(df, ["First name", "Error name"])
+            self.anon.transform(df, ["First name", "Error name"])
         with pytest.raises(Exception):
-            dummy = self.anon.transform(df, "Single error column name")
+            self.anon.transform(df, "Single error column name")
 
     def test_columns_transformed_OK(self, test_df):
         """ Tests that the test dataframe is converted correctly """
         df = test_df.copy(deep=True)
-        key_df = self.anon.transform(df, "Contract number")
+        self.anon.transform(df, "Contract number")
         assert df.shape == test_df.shape
         assert df["Contract number"].iloc[0] == "c5e8b35adac40efce02cc69487b3addc"
         assert test_df["Contract number"].iloc[0] == 33463634
@@ -67,7 +67,7 @@ class TestInforcehubAnon(object):
     def test_multiple_columns_transformed(self, test_df):
         """ Tests that multiple columns are transformed correctly """
         df = test_df.copy(deep=True)
-        key_df = self.anon.transform(df, ["First name", "Product", "Start date"])
+        self.anon.transform(df, ["First name", "Product", "Start date"])
         assert df.shape == test_df.shape
         for column in ["Contract number", "Last name", "Status", "In-force premium"]:
             assert df[column].all() == test_df[column].all()
@@ -80,7 +80,7 @@ class TestInforcehubAnon(object):
         """ Tests that the same text in the input will have the same hash """
         """ Checks that we haven't updated the salt by accident """
         df = test_df.copy(deep=True)
-        key_df = self.anon.transform(df, ["Last name", "Product"])
+        self.anon.transform(df, ["Last name", "Product"])
         # Both surnames are Brown
         assert len(df["Last name"].iloc[3]) == 32
         assert df["Last name"].iloc[3] == df["Last name"].iloc[4]

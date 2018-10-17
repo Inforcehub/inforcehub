@@ -1,8 +1,8 @@
-.. _anonymizer:
+.. _anonymize:
 
-==========
-Anonymizer
-==========
+=========
+Anonymize
+=========
 
 This module provides methods to **anonymize or pseudo-anonymize a dataset**.
 

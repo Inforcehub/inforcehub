@@ -7,8 +7,8 @@ class Anonymize:
     """
     A class that will transform a Pandas dataframe into an anonymized
     dataframe using the python hmac package for encryption.
-    
-    When instantiating an object of this class, the **salt** 
+
+    When instantiating an object of this class, the **salt**
     init attribute can be specified which enables encryption results
     to be reproduced. If none is supplied, a randomized password
     is created instead for security.
@@ -46,9 +46,9 @@ class Anonymize:
 
         :param: pd.DataFrame() df: A Pandas dataframe to be transformed
         :param: list columns: A list of columns to be transformed
-        :param: str verbose: (default=False) If true will print status during transform stage
+        :param: str verbose: (default=False) If true will print status
 
-        :returns: a pseudo-anonymization lookup table of encrypted and unencrypted values 
+        :returns: a pseudo-anonymization lookup table
         :rtype: pd.DataFrame()
         """
         # In case user puts in single column name as a string not a list

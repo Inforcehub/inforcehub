@@ -1,2 +1,2 @@
-pandas
-bcrypt
+pandas==0.23.4
+bcrypt==3.1.4

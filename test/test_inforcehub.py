@@ -1,8 +1,6 @@
 """
 Tests for `inforcehub` module.
 """
-# import pytest
-from inforcehub import inforcehub
 
 
 class TestInforcehub(object):
@@ -27,4 +25,3 @@ class TestInforcehub(object):
 
         anon = Anonymize()
         anon.salt
-

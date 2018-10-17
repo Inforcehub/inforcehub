@@ -40,7 +40,7 @@ class InforcehubColors:
         """
         Returns a list of the color names
 
-        :param: str sublist: (default='all') to return 'colors', 'core', 'neutral', or 'all'
+        :param: str sublist: (default='all') options 'colors'/'core'/'neutral'/'all'
 
         :returns: a list of color names
         :rtype: list
@@ -63,7 +63,7 @@ class InforcehubColors:
         Returns a list of the color hex codes for use in Matplotlib
         or other tools which want a set of colors to choose from
 
-        :param: str sublist: (default='all') to return 'colors', 'core', 'neutral', or 'all'
+        :param: str sublist: (default='all') options 'colors'/'core'/'neutral'/'all'
 
         :returns: a list of color hex codes
         :rtype: list

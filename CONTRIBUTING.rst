@@ -89,7 +89,7 @@ To get tox, just pip install it.
 
 7. Submit a pull request through the GitHub website.
 
-.. _Fork: https://github.com/Nekroze/inforcehub/fork
+.. _Fork: https://github.com/inforcehub/inforcehub/fork
 
 Pull Request Guidelines
 -----------------------
@@ -101,7 +101,7 @@ Before you submit a pull request, check that it meets these guidelines:
    your new functionality into a function with a docstring, and add the
    feature to the list in README.rst.
 3. The pull request should work for Python 3.4 - 3.7 and for PyPy.
-   Check https://travis-ci.org/inforcehub/inforcehub 
+   Check https://travis-ci.org/Inforcehub/inforcehub
    under pull requests for active pull requests or run the ``tox`` command and
    make sure that the tests pass for all supported Python versions.
 
