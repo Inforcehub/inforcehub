@@ -1,11 +1,11 @@
 """
-Tests for `color` module.
+Tests for color module.
 """
 import pytest
 from inforcehub.colors import InforcehubColors
 
 
-class TestInforcehub(object):
+class TestInforcehubColors(object):
     @classmethod
     def setup_class(cls):
 

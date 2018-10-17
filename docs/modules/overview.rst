@@ -17,6 +17,15 @@ for more info.
 Sub-modules
 ===========
 
+Anon
+----
+
+A module to anonymize and pseudo-anonymize customer datasets. Strips out the 
+confidential data from a pandas dataframe.
+
+:ref:`Find out more. <anon_module>`
+
+
 Colors
 ------
 

@@ -1,8 +1,8 @@
-.. _colors_module:
+.. _inforcehubcolors:
 
-=============
-Colors module
-=============
+================
+InforcehubColors
+================
 
 This provides simple utilities to return **inforcehub branded colors** for
 use across applications such as matplotlib.
@@ -12,7 +12,7 @@ Usage
 
 Import the color class and create an instance::
 
-    from inforcehub.colors import InforcehubColors
+    from inforcehub import InforcehubColors
     
     ifh = InforcehubColors()
 

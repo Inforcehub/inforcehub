@@ -14,10 +14,17 @@ class TestInforcehub(object):
     def teardown_class(cls):
         pass
 
-    def test_color_imports(self):
-        """ Confirm imports are available for color modules """
-        from inforcehub.colors import InforcehubColors
+    def test_color_import(self):
+        """ Confirm imports are available for modules """
+        from inforcehub import InforcehubColors
 
         c = InforcehubColors()
         c.list()
+
+    def test_anon_import(self):
+        """ Confirm imports are available for modules """
+        from inforcehub import Anonymize
+
+        anon = Anonymize()
+        anon.salt
 
