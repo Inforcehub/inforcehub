@@ -28,7 +28,7 @@ To install the module in your virtual environment using pip::
 Requirements
 ------------
 
-Python 3.4 or later 
+Python 3.5 or later 
 
 
 Documentation

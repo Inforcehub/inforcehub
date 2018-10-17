@@ -13,7 +13,6 @@
 
 import sys
 import os
-import inforcehub
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -23,6 +22,9 @@ import inforcehub
 cwd = os.getcwd()
 parent = os.path.dirname(cwd)
 sys.path.insert(0, parent)
+
+import inforcehub
+
 
 # -- General configuration -----------------------------------------------------
 

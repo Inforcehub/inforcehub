@@ -15,7 +15,7 @@ History
 
 * Colors module refactored and additional tests written
 * Documentation updated
-* Added support for Python 3.4+
+* Added support for Python 3.5+
 
 
 0.1.1 (2018-10-15)
