@@ -16,4 +16,5 @@ install:
 # command to run tests, e.g. python setup.py test
 script:
   - pytest
-  - flake8 inforcehub
+  - flake8 --max-line-length=88 inforcehub
+  - flake8 --max-line-length=88 test
