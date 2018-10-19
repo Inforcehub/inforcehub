@@ -15,6 +15,7 @@ Features
 --------
 
 * **colors** module - to enable quick use of inforcehub branded colors
+* **anonymize** module - to encrypt customer identifiable data from a dataset and (optionally) create a key
 
 
 Installation
@@ -24,6 +25,10 @@ To install the module in your virtual environment using pip::
 
     pip install inforcehub
 
+To upgrade your existing inforcehub module installation using pip::
+
+    pip install -U inforcehub
+    
 
 Requirements
 ------------
