@@ -4,6 +4,13 @@ History
 -------
 
 
+0.2.0 (2018-10-19)
+++++++++++++++++++
+
+* Added Anonymize module to encrypt customer identifiable data in a dataset
+* Removed PyPy support due to PyPy and numpy incompatibility
+
+
 0.1.3 (2018-10-16)
 ++++++++++++++++++
 
