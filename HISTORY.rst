@@ -4,6 +4,13 @@ History
 -------
 
 
+0.2.0 (2018-10-19)
+++++++++++++++++++
+
+* Added Anonymize module to encrypt customer identifiable data in a dataset
+* Removed PyPy support due to PyPy and numpy incompatibility
+
+
 0.1.3 (2018-10-16)
 ++++++++++++++++++
 
@@ -15,7 +22,7 @@ History
 
 * Colors module refactored and additional tests written
 * Documentation updated
-* Added support for Python 3.4+
+* Added support for Python 3.5+
 
 
 0.1.1 (2018-10-15)

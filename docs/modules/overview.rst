@@ -17,13 +17,22 @@ for more info.
 Sub-modules
 ===========
 
+Anon
+----
+
+A module to anonymize and pseudo-anonymize customer datasets. Strips out the 
+confidential data from a pandas dataframe.
+
+:ref:`Find out more. <anonymize>`
+
+
 Colors
 ------
 
 This is a module of shortcuts to easily import inforcehub branded colors.
 This makes consistent coloring easier in matplotlib and jupyter notebooks.
 
-:ref:`Find out more. <colors_module>`
+:ref:`Find out more. <inforcehubcolors>`
 
 
 Examples

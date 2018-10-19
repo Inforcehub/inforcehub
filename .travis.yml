@@ -3,8 +3,6 @@
 language: python
 
 python:
-  - "pypy"
-  - "3.4"
   - "3.5"
   - "3.6"
   - "3.7-dev"
@@ -12,7 +10,10 @@ python:
 # command to install dependencies, e.g. pip install -r requirements.txt --use-mirrors
 install: 
   - pip install -r requirements.txt
+  - pip install flake8 pytest
 
 # command to run tests, e.g. python setup.py test
 script:
   - pytest
+  - flake8 --max-line-length=88 inforcehub
+  - flake8 --max-line-length=88 test

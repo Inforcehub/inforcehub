@@ -28,7 +28,7 @@ history = open("HISTORY.rst").read().replace(".. :changelog:", "")
 
 setup(
     name="inforcehub",
-    version="0.1.3",
+    version="0.2.0",
     description="Utilities for data science and customer management",
     long_description=readme + "\n\n" + githublink + "\n\n" + history,
     author="inforcehub",
@@ -47,7 +47,6 @@ setup(
         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
         "Natural Language :: English",
         "Programming Language :: Python :: 3 :: Only",
-        "Programming Language :: Python :: 3.4",
         "Programming Language :: Python :: 3.5",
         "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",

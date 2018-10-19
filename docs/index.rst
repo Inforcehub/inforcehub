@@ -12,9 +12,10 @@ Contents:
    :maxdepth: 2
 
    modules/overview
+   modules/anon
+   modules/colors
    installation
    usage
-   modules/colors
    contributing
    authors
    license

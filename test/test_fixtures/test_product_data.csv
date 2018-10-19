@@ -1,0 +1,6 @@
+Contract number,Product,Status,First name,Last name,Age,DOB,Start date,Distributor code,Sum Assured,In-force premium
+33463634,Mousetrap,Active,John,McGee,45,2-Nov-1954,1-Jan-2013,3456,100000,150.3
+223422342,Mousetrap,Active,Jane,Morrison,67,4-Jan-1967,1-Jan-2013,355,200000,204
+4464646,Mousetrap Pro,Active,Bruce,Lane,62,1-Jan-1943,1-Jan-2013,5757,500000,950
+4234335,Mousetrap Pro,Paid-up,Betty,Brown,45,12-Dec-1986,1-Jan-2013,355,550000,0
+33535363,Mousetrap Pro,Lapsed,Arnold,Brown,53,4-Apr-1972,1-Jan-2013,355,400000,0
