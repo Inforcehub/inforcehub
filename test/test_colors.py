@@ -2,7 +2,7 @@
 Tests for color module.
 """
 import pytest
-from inforcehub.colors import InforcehubColors
+from inforcehub import InforcehubColors
 
 
 class TestInforcehubColors(object):
