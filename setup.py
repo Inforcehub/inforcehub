@@ -28,7 +28,7 @@ history = open("HISTORY.rst").read().replace(".. :changelog:", "")
 
 setup(
     name="inforcehub",
-    version="0.2.0",
+    version="0.2.1",
     description="Utilities for data science and customer management",
     long_description=readme + "\n\n" + githublink + "\n\n" + history,
     author="inforcehub",
@@ -37,7 +37,7 @@ setup(
     packages=["inforcehub"],
     package_dir={"inforcehub": "inforcehub"},
     include_package_data=True,
-    install_requires=[],
+    install_requires=["pandas", "bcrypt"],
     license="GNU",
     zip_safe=False,
     keywords="inforcehub",

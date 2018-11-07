@@ -1,6 +1,6 @@
 __author__ = "Inforcehub"
 __email__ = "matt.gosden@inforcehub.com"
-__version__ = "0.2.0"
+__version__ = "0.2.1"
 
 from .colors import InforcehubColors
 from .anonymize import Anonymize
